@@ -29,21 +29,25 @@
     <button onclick="cantum();">Concatenate</button>
     <span id="fullname"></span>
 
-    <div class="container">
-        <h1>BMI Calculator</h1>
+    <div>
+        <h2>BMI Calculator</h2>
+        <p class="text">Height</p>
+        <input type="text" id="h">
+        <p class="text">Weight</p>
+        <input type="text" id="w">
+        <br><br><br>
 
-        <p>Height (in cm)</p>
+        <button id="btn" onClick="BMI()">Calculate</button>
+        <br><br>
 
-        <input type="text" id="height">
+        <p id="result"></p>
 
-        <p>Weight (in kg)</p>
-
-        <input type="text" id="weight">
-
-        <button id="btn">Calculate</button>
-
-        <div id="result"></div>
     </div>
+
+    <h2>Loop</h2>
+
+    <p id="loop"></p>
+
 
 
     <script src="script.js"></script>
